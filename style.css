@@ -1,0 +1,65 @@
+.container{
+    margin-bottom:100px;
+}
+.button{
+    border: none;
+    border-radius: 6px;
+    background-image: linear-gradient(to bottom,#fd79a8,#e84393);
+    padding: 10px 20px;
+    font-weight: 600;
+    color:white;
+}
+.carousel-item{
+    background-color: #FEEAE9;
+    padding: 10px 30px;
+}
+.catagories img{
+    width:30%;
+}
+.watch{
+    background-image: linear-gradient(to right,#f39c12,#f1c40f);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:white;
+}
+.bag{
+    background-image: linear-gradient(to right,#e84393,#fd79a8);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:white;
+}
+.shoes{
+    background-image: linear-gradient(to right,#6c5ce7,#a29bfe);
+    padding: 10px 20px;
+    border-radius: 10px;
+    color:white;
+}
+.card{
+    border:none;
+    box-shadow: 10px 10px 15px lightgray;
+}
+.card h3,p{
+    font-weight: 600;
+}
+.subscribe-area{
+    background-color: #FEEAE9;
+    padding: 100px 0;
+    text-align: center;
+}
+.subscribe-area input{
+    border: none;
+    padding: 8px 5px;
+}
+.subscribe-area p{
+    color:#636e72;
+}
+.footer p{
+    color:#636e72;
+}
+
+@media all and (max-width: 768px){
+    .card-deck .card{
+        display: block;
+    }
+}
+
